@@ -11,6 +11,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "11.0"
   s.ios.framework  = 'UIKit'
+  
+  s.watchos.deployment_target = "4.0"
+  s.watchos.framework  = 'SwiftUI'
 
   s.tvos.deployment_target = "11.0"
   s.tvos.framework  = 'UIKit'
