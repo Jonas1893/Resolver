@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/hmlongco/Resolver"
   s.license      = "MIT"
   s.author       = "Michael Long"
-  s.source       = { :git => "https://github.com/hmlongco/Resolver.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/FKREISE/Resolver.git", :tag => "#{s.version}" }
   s.source_files  = "Classes", "Sources/Resolver/*.swift"
   s.swift_version = '5.1'
 
